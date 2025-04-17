@@ -21,20 +21,19 @@ padding: 10px;
 text-align: left;
 }
 th {
- background-color: #f2f2f2;
+background-color: #d0efb5;
 font-size: 18px;
 }
 td {
 font-size: 16px;
 }
 h1 {
-text-al
-gn: center;
+text-align: center;
 }
 </style>
 </head>
 <body>
-<h1>TCP/IP Protocol Suite</h1>
+<h1 align="center">TCP/IP Protocol Suite</h1>
 <table>
 <tr>
 <th>Layer</th>
@@ -47,6 +46,7 @@ gn: center;
 </table>
 </body>
 </html>
+
 """
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
